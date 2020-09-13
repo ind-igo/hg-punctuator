@@ -1,9 +1,8 @@
 FROM continuumio/miniconda3
 
-RUN apt-get install 
 WORKDIR /app
 
-COPY https://hieroglyph.s3.amazonaws.com/Demo-Europarl-EN.pcl .
+ADD https://hieroglyph.s3.amazonaws.com/Demo-Europarl-EN.pcl .
 COPY . .
 RUN conda env create -f environment.yml
 
