@@ -1,0 +1,52 @@
+name: punctuator_service
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - binutils_impl_linux-64=2.33.1=he6710b0_7
+  - binutils_linux-64=2.33.1=h9595d00_15
+  - blas=1.0=openblas
+  - ca-certificates=2020.7.22=0
+  - certifi=2018.8.24=py35_1
+  - click=7.1.2=py_0
+  - gcc_impl_linux-64=7.3.0=habb00fd_1
+  - gcc_linux-64=7.3.0=h553295d_15
+  - gxx_impl_linux-64=7.3.0=hdf63c60_1
+  - gxx_linux-64=7.3.0=h553295d_15
+  - intel-openmp=2019.4=243
+  - joblib=0.14.1=py_0
+  - ld_impl_linux-64=2.33.1=h53a641e_7
+  - libedit=3.1.20191231=h14c3975_1
+  - libffi=3.2.1=hd88cf55_4
+  - libgcc-ng=9.1.0=hdf63c60_0
+  - libgfortran-ng=7.3.0=hdf63c60_0
+  - libgpuarray=0.7.6=h14c3975_0
+  - libopenblas=0.3.10=h5a2b251_0
+  - libstdcxx-ng=9.1.0=hdf63c60_0
+  - mako=1.1.3=py_0
+  - markupsafe=1.0=py35h14c3975_1
+  - mkl=2018.0.3=1
+  - mkl-service=1.1.2=py35h651fb7a_4
+  - ncurses=6.2=he6710b0_1
+  - nltk=3.5=py_0
+  - numpy=1.15.2=py35h99e49ec_0
+  - numpy-base=1.15.2=py35h2f8d375_0
+  - openssl=1.0.2u=h7b6447c_0
+  - pip=10.0.1=py35_0
+  - pygpu=0.7.6=py35h3010b51_0
+  - python=3.5.6=hc3d631a_0
+  - readline=7.0=h7b6447c_5
+  - regex=2018.08.29=py35h7b6447c_0
+  - scipy=1.1.0=py35he2b7bc3_1
+  - setuptools=40.2.0=py35_0
+  - six=1.15.0=py_0
+  - sqlite=3.33.0=h62c20be_0
+  - theano=1.0.2=py35h6bb024c_0
+  - tk=8.6.10=hbc83047_0
+  - tornado=5.1.1=py35h7b6447c_0
+  - tqdm=4.48.2=py_0
+  - wheel=0.35.1=py_0
+  - xz=5.2.5=h7b6447c_0
+  - zlib=1.2.11=h7b6447c_3
+prefix: /home/sali/bin/miniconda3/envs/punctuator_service
+
